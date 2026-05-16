@@ -8,8 +8,8 @@ ul{list-style:none}
 img{max-width:100%;display:block}
 
 /* === NAV === */
-.nav{position:fixed;top:0;left:0;width:100%;z-index:100;padding:16px 24px;transition:all .3s;background:rgba(255,255,255,.4);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.3)}
-.nav.scrolled{background:rgba(255,255,255,.65);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(0,0,0,.05);box-shadow:0 10px 30px rgba(0,0,0,0.03)}
+.nav{position:fixed;top:0;left:0;width:100%;z-index:100;padding:24px 24px;transition:all .4s ease;background:transparent;border-bottom:1px solid transparent}
+.nav.scrolled{padding:16px 24px;background:rgba(255,255,255,0.15);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid rgba(255,255,255,0.4);box-shadow:0 4px 30px rgba(0,0,0,0.05)}
 .nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
 .nav-logo{font-size:28px;font-weight:900;color:#0f172a;letter-spacing:1px}
 .nav-logo span{color:#3b82f6}
