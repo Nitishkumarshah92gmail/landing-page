@@ -58,8 +58,8 @@ img{max-width:100%;display:block}
 .marquee-fade-r{right:0;background:linear-gradient(to left,#fff,#fff 20%,transparent)}
 .marquee-track{display:flex;gap:60px;animation:marquee-scroll 20s linear infinite;width:max-content}
 .marquee-item{flex-shrink:0;display:flex;align-items:center}
-.brand-logo{width:180px;height:50px;opacity:.7;transition:opacity .3s;filter:grayscale(100%)}
-.brand-logo:hover{opacity:1;filter:grayscale(0%)}
+.brand-logo{width:180px;height:50px;opacity:.9;transition:all .3s}
+.brand-logo:hover{opacity:1;transform:scale(1.05)}
 @keyframes marquee-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* === SECTION COMMON === */
