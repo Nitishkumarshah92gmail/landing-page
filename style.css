@@ -152,8 +152,13 @@ img{max-width:100%;display:block}
   .nav.scrolled { padding: 12px 16px; }
   .nav-logo { font-size: 22px; }
   .nav-logo span { display: block; font-size: 14px; margin-top: 2px; }
-  .nav-links,.nav-cta{display:none}
-  .menu-btn{display:flex}
+  .nav-cta{display:none}
+  .nav-links{display:none; position:absolute; top:100%; left:0; width:100%; background:#f8fafc; flex-direction:column; padding:20px; box-shadow:0 10px 20px rgba(0,0,0,0.1); border-top:1px solid rgba(140,214,250,0.2)}
+  .nav-links.active{display:flex}
+  .menu-btn{display:flex; z-index: 101;}
+  .menu-btn.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .menu-btn.active span:nth-child(2){opacity:0}
+  .menu-btn.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
   .services-grid{grid-template-columns:1fr}
   .stats-bar-inner{grid-template-columns:1fr 1fr; gap: 16px;}
   .stat-item h3 { font-size: 28px; }
